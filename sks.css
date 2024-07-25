@@ -1,0 +1,24 @@
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #ff9900 0%, #d68b00 28.53%, #ff950b 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start; 
+    justify-items: center;
+    gap: 2rem;
+    padding-top: 10%; 
+}
+
+.hero-text {
+    grid-column: span 2; 
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    line-height: 1;
+    color: white;
+}
